@@ -14,7 +14,6 @@
         <module>starter</module>
     </modules>
 
-
     <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -42,6 +41,5 @@
             <version>1.1</version>
         </dependency>
     </dependencies>
-
 
 </project>

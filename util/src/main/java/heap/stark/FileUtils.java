@@ -8,6 +8,11 @@ import java.io.IOException;
  * Created by WZL on 2018/3/25.
  */
 public class FileUtils {
+    /**
+     *
+     * @param bufferedWriter
+     * @param params
+     */
     public static void writeLine(BufferedWriter bufferedWriter, String... params) {
         try {
             for (String param : params) {
@@ -19,10 +24,13 @@ public class FileUtils {
         }
     }
 
+    /**
+     *
+     * @param bufferedWriter
+     * @param params
+     */
     public static void writeSpaceLine(BufferedWriter bufferedWriter, String... params) {
         try {
-
-
             for (int i = 0; i < params.length - 1; i++) {
                 bufferedWriter.write(params[i] + " ");
             }

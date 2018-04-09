@@ -42,6 +42,7 @@ public class PoolUtils {
         InputStream inputStream = null;
         Properties p = null;
         try {
+            System.out.println(webRootPath);
             inputStream = new FileInputStream(new File(webRootPath + File.separator + fullFile));
             p = new Properties();
             p.load(inputStream);
